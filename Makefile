@@ -14,7 +14,7 @@ PATH_OBJ = obj/
 
 CC = cc
 
-FLAGS = -Wall -Wextra -Werror -Imlx
+FLAGS = -Wall -Wextra  -Imlx
 
 OBJ = $(addprefix $(PATH_OBJ), $(SRC:.c=.o))
 
